@@ -25,6 +25,9 @@
     <button class = "button3">3</button>
 
     <script>
+        document.querySelector('.button1').addEventListener('click', function(){
+            document.querySelector('.container').style.transform = 'translate(0vw)';
+        });
         document.querySelector('.button2').addEventListener('click', function(){
             document.querySelector('.container').style.transform = 'translate(-100vw)';
         });
